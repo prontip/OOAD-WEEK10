@@ -1,7 +1,7 @@
 # OOAD-WEEK10
 รูปที่1
 
-@startuml
+ ```@startuml
 title XeroxPaper
 user -> button : Press(on)
 button -> machine: SendCommandOn()
@@ -11,7 +11,7 @@ button -> machine: SendCommandXerox()
 machine -> MachineScan : SendCommandScan
 MachineScan -> machine : informationScan
 machine -> Printer : SendCommandPrinter
-@endum
+@endum ```
 
 ![](http://www.plantuml.com/plantuml/img/XOun3i8m34Ntd29ZEt213gW8YGqHgGkhQOs8r3Z8SIIEJn82P45irl_Fpnw304jqgn8hA-epidyOk2Eh693rPgilKSIJ7hHX3A7prAiQfTB1VBE4WvwGbhrt3cWvKTT_jdUCSF1ieXIh7jxJBt_vuD-90gKhjSlOyJLECsHNm-P4jUtNcK1BLyyEn7egO6CqR4doowsjXcfCKNHAFG40)
 
